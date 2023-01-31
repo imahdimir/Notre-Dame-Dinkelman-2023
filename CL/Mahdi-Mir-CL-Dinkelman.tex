@@ -1,0 +1,110 @@
+\documentclass[12pt]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage{eso-pic}
+\usepackage{charter}
+\usepackage{xcolor}
+
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+\definecolor{gr}{RGB}{225,225,225}
+
+\input{CL-info.tex}
+
+\begin{document}
+
+% Shaded header banner
+\AddToShipoutPictureBG{%
+    \color{gr}
+    \AtPageUpperLeft{\rule[-1.3in]{\paperwidth}{1.3in}}
+}
+
+% Header
+\begin{center}
+    {\fontsize{28}{0}\selectfont\scshape \myname}
+
+    \href{mailto:\myemail}{\faEnvelope\enspace \myemail}\hfill
+    %\href{https://linkedin.com/in/\mylinkedin}{\faLinkedinIn\enspace linkedin.com/in/\mylinkedin}\hfill
+    \href{tel:\myphone}{\faPhone\enspace \myphone}\hfill
+    \faMapMarker \enspace \mylocation
+\end{center}
+
+\vspace{0.3in}
+
+
+
+\vspace{-0.1in}
+
+\greeting\
+\recipient,\\
+
+% Body
+\vspace{-0.1in}\setlength\parindent{24pt}
+
+My name's Mahdi; I have a quiet strong background in statistics and data analysis.
+and have been using Stata for several years to conduct research and complete
+data projects. I am well-versed in a variety of Stata commands and techniques,
+and have experience working with large datasets. In addition, I have experience
+creating Stata scripts and macros, which allows me to automate repetitive tasks
+and make my work more efficient. I have worked with large scale datasets that
+are globally renowned. I have done a project using the REGPAT data which covers
+all the patents in the world. I have also worked with the HAN, and ORBIS databeses.
+
+\par
+
+More about my programming \& quantitative skills. I have an excellent experience
+with Python, working with databases, deep learning models, image processing,
+statistical analyses, and almost all sorts of things in Python. In my current
+role as a data analyst, I have honed my skills in Python and have become an
+professional. I Also, have worked with R for the purpose of statistical analyses,
+statistical modeling and data visualization.
+
+\par
+
+Recently, I graduated with a Master's in Theoretical Economics from TeIAS (Tehran
+Institute for Advanced Studies, the leading economic/financial research institute
+in Iran). I've been researching Economics \&
+also doing RA jobs at TeIAS for the last three years. I have been the RA of Mahdi Heidari for almost 30 months, also I've done RA jobs
+with Hamed Davari from the university of Mannheim, Germany.
+moreover, I have an ongoing RA job with Javad Shamsi from LSE, UK.
+Before my Maser's in Economics, I graduated from the Electrical Engineering Department
+of Sharif university of technology, which is a renowned department worldwide.
+I enhanced my mathematical \& quantitative skills during these years.
+
+\par
+
+I have done many projects in \textbf{Stata}, \textbf{Python}, \textbf{R} and
+\textbf{Julia}. As an example of my works, I extracted
+share-holding data from Iranian mutual funds’ reports’ images, which is
+brave new nationwide. I used image processing methods, the TableNet deep
+learning model with some adjustments, and the Google Tesseract engine for the job.
+I have done a project using Python in which I have used the Selenium library to scrape data from the
+Tehran Stock Exchange website. The project gatheres all the prices, adjusted prices,
+and other trade information about the stocks in the TSE, then it cleanes data
+and add it to an online database.
+
+\par
+
+I believe that my previous quantitative \& mathematical skills,
+as well as my excellence in programming with Stata \& Python,
+makes me the right candidate for the predoctoral position.
+I hope to work on this research project to strengthen
+my skills \& deepen my knowledge so I can develop my research agenda and get
+a Ph.D. in economics at a leading university.
+
+Please review my CV for additional details. Do not hesitate to reach out if you have any questions or need further
+clarification on my experience.
+
+\vfill
+
+
+\begin{flushleft}
+    \closer,\\
+    Mahdi
+\end{flushleft}
+
+
+\end{document}
